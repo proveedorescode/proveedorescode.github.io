@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proveedores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/provedor.css">
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
+        <header>
+            <h1>Proveedores</h1>
+        </header>
+        <form id="forma" action="javascript:;">
+            <p><em>el borde azul indica obligatorio</em></p>
+            <p>
+                <label accesskey="C">
+                    Clave:<input name="Clave" name="num"  required
+                           placeholder="1 a 10 digitos">
+                </label>
+                <br><output id="salidaClave"></output>
+            </p>
+            <p>
+                <label accesskey="S">
+                   
+                    Nombre:<input name="Nombre" type="text" required 
+                                  placeholder="1 a 50 caracteres">
+                </label>
+                <br><output id="salidaNombre"></output>
+            </p>
+            <p>
+                <label accesskey="T">
+                   
+                    Telefono:<input name="Telefono" type="num" required 
+                                  placeholder="1 a 14 Caracteres">
+                </label>
+                <br><output id="salidaTelefono"></output>
+           </p>
+           <p>
+                <label accesskey="F">
+                    Fecha:<input name="Fecha" type="date"  required
+                           placeholder="año-mes-día">
+                </label>
+               
+                <br><output id="salidaFecha"></output>
+           </p>
+           <p>
+               <p><input type="submit" value="Procesar" accesskey="P">
+               <input type="reset" value="Limpiar">
+               </form>
+        <footer>
+           Alndra Urbina
+        </footer>
+        <script src="js/provedor.js"></script>
+        
+    </body>
+</html>
